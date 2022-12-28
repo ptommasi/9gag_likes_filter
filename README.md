@@ -2,7 +2,7 @@
 
 A tool which allows to filter the 9GAG upvotes / likes personal page only on the tags you are interested in (e.g. funny, gaming, pcmr, etc...).
 
-It uses [TamperMoney](https://www.tampermonkey.net/) to work, just add the script in the dashboard (copy / paste will work, it's not in the repository yet).
+It uses [TamperMoney](https://www.tampermonkey.net/) to work, either add the script in the dashboard (copy / paste will work) or use the [script on GreasyFork](https://greasyfork.org/en/scripts/457269-9gag-likes-upvotes-page-tag-filter-tool) ([here the install link](https://greasyfork.org/scripts/457269-9gag-likes-upvotes-page-tag-filter-tool/code/9GAG%20Likes%20%20Upvotes%20Page%20Tag%20Filter%20Tool.user.js)).
 
 Here how it works:
  - The script will only activate when you are on your personal upvotes page (under the _9gag.com/u/<user>/likes_ path)
