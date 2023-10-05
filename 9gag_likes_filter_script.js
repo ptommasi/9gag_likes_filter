@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         9GAG Likes Page Filter Tool
 // @namespace    ptommasi@users.noreply.github.com
-// @version      0.2
+// @version      0.3
 // @description  A tool which allows to filter the 9GAG upvotes / likes personal page only on the tags you are interested into (e.g. funny, gaming, pcmr, etc...).
 // @author       Pierpaolo Tommasi
 // @match        *://9gag.com/u/*/likes
@@ -32,7 +32,7 @@ function getNewArticles() {
     articles.forEach(a => {
         const articleId = a.getAttribute("id");
         if (!articleToTags.has(articleId)) {
-            _articleToTags[articleId] = [ ... a.querySelectorAll(".ui-post-tags a") ].map(a => a.innerText);
+            _articleToTags[articleId] = [ ... a.querySelectorAll(".post-tags a") ].map(a => a.innerText);
         }
     });
 
